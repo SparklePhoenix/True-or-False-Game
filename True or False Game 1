@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class FunProject6{
+public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        String Q;
+        String W;
+        String E;
+        String K;
+
+        System.out.println("Welcome to the True or False Game.");
+
+        System.out.println("True or False, Crocodiles can stick their tongues out.");
+        Q = sc.next();
+        System.out.println("The answer is True.");
+
+        System.out.println("True or False, dogs are Mammals.");
+        W = sc.next();
+        System.out.println("The answer is True.");
+
+        System.out.println("True or False, Crocodiles are not Reptiles.");
+        E = sc.next();
+        System.out.println("The answer is False.");
+
+        System.out.println("True or False, Octopuses have three hearts.");
+        K = sc.next();
+        System.out.println("The answer is True.");
+
+        System.out.println("Thank you for playing! Bye!");
+
+
+    }
+}
