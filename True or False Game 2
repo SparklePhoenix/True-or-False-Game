@@ -1,0 +1,43 @@
+import java.util.Scanner;
+public class FunProject7
+{
+    public static void main(String[] args){
+          Scanner sc = new Scanner (System.in);
+
+        String S;
+        String T;
+        String R;
+        String I;
+        String N;
+        String G;
+
+        System.out.println("Welcome to the True or False Game!");
+        System.out.println("This Game has Six Easy Questions");
+
+        System.out.println("True or False, penguins can fly.");
+        S = sc.next();
+        System.out.println("The answer is False.");
+
+        System.out.println("True or False, a hippopotamus is a Mammal.");
+        T = sc.next();
+        System.out.println("The answer is True.");
+
+        System.out.println("True or False, a lizard is a Mammal.");
+        R = sc.next();
+        System.out.println("The answer is False.");
+
+        System.out.println("True or False, a monkey is a Reptile.");
+        I = sc.next();
+        System.out.println("The answer is False.");
+
+        System.out.println("True or False, a fish is a mammal.");
+        N = sc.next();
+        System.out.println("The answer is False.");
+
+        System.out.println("True or False, a dog is a mammal.");
+        G = sc.next();
+        System.out.println("The answer is True.");
+        
+        System.out.println("Thank you for playing!");
+    }
+}
