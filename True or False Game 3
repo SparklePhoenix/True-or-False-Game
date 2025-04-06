@@ -1,0 +1,50 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+
+        String A;
+        String B;
+        String C;
+        String D;
+        String E;
+        String F;
+
+        System.out.println("Welcome to the True or False game.");
+        System.out.println("This game has Six Questions.");
+
+        System.out.println("Question Number One");
+        System.out.println("True or False crabs are Crustaceans.");
+        A = sc.next();
+        System.out.println("The answer is True");
+
+        System.out.println("Question Number Two");
+        System.out.println("True or False penguins eat fish.");
+        B = sc.next();
+        System.out.println("The answer is True");
+
+        System.out.println("Question Number Three");
+        System.out.println("True or False snakes are reptiles.");
+        C = sc.next();
+        System.out.println("The answer is True");
+
+        System.out.println("Question Number Four");
+        System.out.println("True or False cats are reptiles.");
+        D = sc.next();
+        System.out.println("The answer is False");
+
+        System.out.println("Question Number Five");
+        System.out.println("True or False a verb is part of a sentence.");
+        E = sc.next();
+        System.out.println("The answer is True");
+
+        System.out.println("Question Number Six");
+        System.out.println("True or False humans are Mammals.");
+        F = sc.next();
+        System.out.println("The answer is True.");
+        
+        System.out.println("That was all the Questions.");
+        System.out.println("Thank you for playing!");
+
+    }
+}
