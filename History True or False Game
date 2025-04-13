@@ -1,0 +1,52 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+
+        String Q;
+        String W;
+        String E;
+        String R;
+        String T;
+        String Y;
+
+        System.out.println("Welcome to the History True or False Game.");
+        System.out.println("This Game has six questions.");
+
+        System.out.println("Question Number One");
+        System.out.println("True or False, The American Civil War started in 1865");
+        Q = sc.next();
+        System.out.println("The answer is False.");
+        System.out.println("The American Civil War started in 1861.");
+
+        System.out.println("Question Number Two");
+        System.out.println("True or False, The Aztecs discovered Chocolate.");
+        W = sc.next();
+        System.out.println("The answer is True.");
+
+        System.out.println("Question Number Three");
+        System.out.println("True or False, The Aztecs capital city was Tenochtitlan.");
+        E = sc.next();
+        System.out.println("The answer is True.");
+
+        System.out.println("Question Number Four");
+        System.out.println("True or False, The Chinese created gunpowder.");
+        R = sc.next();
+        System.out.println("The answer is True.");
+
+        System.out.println("Question Number Five");
+        System.out.println("True or False, America was named after a English king");
+        T = sc.next();
+        System.out.println("The answer is False.");
+        System.out.println("America was named after Amerigo Vespucci.");
+
+        System.out.println("Question Number Six");
+        System.out.println("True or False, The Crystal Palace was built in 1950.");
+        Y = sc.next();
+        System.out.println("The answer is False");
+        System.out.println("The Crystal Palace was built in 1850.");
+
+        System.out.println("This is the end of the Game.");
+        System.out.println("Thank you for playing!");
+    }
+}
